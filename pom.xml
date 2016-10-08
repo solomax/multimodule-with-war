@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.apache</groupId>
+		<artifactId>apache</artifactId>
+		<version>18</version>
+	</parent>
+	<groupId>org.apache.multimodule-with-war</groupId>
+	<artifactId>multimodule-with-war-parent</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+  <modules>
+    <module>multimodule-with-war-server</module>
+    <module>multimodule-with-war-util</module>
+    <module>multimodule-with-war-db</module>
+    <module>multimodule-with-war-core</module>
+    <module>multimodule-with-war-web</module>
+  </modules>
+</project>
