@@ -31,6 +31,9 @@
             </goals>
             <configuration>
               <useMissingFile>true</useMissingFile>
+<properties>
+    <license.excludedScopes>test</license.excludedScopes>
+</properties>
             </configuration>
           </execution>
         </executions>
