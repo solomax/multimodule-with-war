@@ -17,6 +17,9 @@
     <module>multimodule-with-war-core</module>
     <module>multimodule-with-war-web</module>
   </modules>
+  <properties>
+    <license.excludedScopes>test</license.excludedScopes>
+  </properties>
   <build>
     <plugins>
       <plugin>
@@ -31,9 +34,6 @@
             </goals>
             <configuration>
               <useMissingFile>true</useMissingFile>
-<properties>
-    <license.excludedScopes>test</license.excludedScopes>
-</properties>
             </configuration>
           </execution>
         </executions>
