@@ -23,7 +23,7 @@
 		<license.excludedScopes>test</license.excludedScopes>
 		<jdk.version>17</jdk.version>
 
-		<maven-javadoc-plugin.version>3.4.0</maven-javadoc-plugin.version>
+		<maven-javadoc-plugin.version>3.4.1</maven-javadoc-plugin.version>
 		<maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
 		<maven-surefire-plugin.version>3.0.0-M7</maven-surefire-plugin.version>
 
